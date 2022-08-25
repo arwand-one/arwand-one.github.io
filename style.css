@@ -1,0 +1,124 @@
+@import url(font-family: 'Caveat', cursive;);
+
+    * {
+margin: 0;
+padding: 0;
+}
+
+    body {
+        display: flex;
+        height: 100vh;
+    justify-content: center;
+    background-image: linear-gradient(#240046,#5A189A,#5A189A,#240046);
+}
+
+.container{
+margin-top: 10px;
+margin-bottom: 10px;
+
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header{
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.header img{width: 169px;
+    border-radius: 30%;
+border: 10px #10002B;
+}
+.header h1{
+text-align: center;
+font-family: "Poppins";
+font-size: 29px;
+}
+
+.maincontent {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.maincontent button {
+width: 350px;
+background-color: #5A189A;
+padding: 10px;
+border-radius: 30px;
+font-family: "poppins";
+font-size: 30px;
+border: 4px #10002B solid;
+}
+.maincontent button:hover {
+cursor:  pointer;
+background-color:#10002B ;
+border-color: #5A189A;
+color: whitesmoke;
+}
+
+.links{
+width: 300px;
+display:flex;
+justify-content: space-between;
+}
+
+.links a:hover svg{
+fill: #240046;
+transform: scale(1.3);
+}
+
+@media only screen and (max-wdith: 430px) {
+    .header img{
+width: 150px;
+}
+
+    .maincontent button{
+        width: 250px;
+    }
+.links{
+width: 200px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
